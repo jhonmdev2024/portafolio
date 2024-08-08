@@ -24,7 +24,7 @@ body{
 
 
 .encabezado{
-    padding: 2% 0% 0% 15%;
+    padding: 3% 0% 0% 15%;
 
 }
 
@@ -131,7 +131,7 @@ body{
     font-weight: 400;    
 }
 
-@media (max-width: 1200px){
+@media (max-width: 720px){
 
     .encabezado{
         padding: 10%;
@@ -139,6 +139,7 @@ body{
 
     .encabezado__menu{
         justify-content: center;
+        gap: 40px;
     }
 
     .presentacion{
